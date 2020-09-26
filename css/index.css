@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* top
+---------------------------------------------------------------------------*/
+/* #img-scroll {
+  width: 100%;
+}
+
+#img-scroll ul li img {
+  margin: 0 5px 0 0;
+} */
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.contents {
+  margin-top: 70px;
+}
+.simply-scroll-container {
+  position: relative;
+}
+
+.simply-scroll-clip {
+  position: relative;
+  overflow: hidden;
+}
+
+.simply-scroll-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.simply-scroll-list li {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.simply-scroll-list li img {
+  display: block;
+}
+
+#js-slide1 {
+  top: -420px;
+  position: relative;
+  opacity: 0;
+}
+
+#js-slide2 {
+  bottom: -420px;
+  position: relative;
+  opacity: 0;
+}
+
+.js-slide li a:hover img {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.6 !important;
+}
+
+/*-------------------------*/
+.title-scroll {
+  position: absolute;
+  z-index: 5000;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100vw / 3);
+}
+
+.title-scroll img {
+  margin: 0 3px;
+  opacity: 0;
+  position: relative;
+  top: -20px;
+}
+.copy-wrapper {
+  position: relative;
+  height: 80px;
+}
+body.index .page-title-item {
+  padding: 0;
+  margin-top: 20px;
+  background: none !important;
+}
+
+body.index .recommendseries-container .page-title-item {
+  padding-left: 10px;
+}
+
+body.index .page-title-item em {
+  font-size: 24px !important;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+}
+/* 追加css */
+.simply-scroll-list li {
+  width: 610px;
+  height: auto;
+}
+
+.simply-scroll-list li img {
+  width: 100%;
+}
